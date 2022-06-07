@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:43949",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "PASSWORD_USER_ROOT": "JuanAvila15",
+        "DIAS_EXPIRACION": "10",
+        "CLAVE_SECRETA": "34567sdvgdhj7tdgjjndddosid8sd9sdjksdj9sd8s87d",
+        "MAIL_USER_ROOT": "julian4@gmail.com",
+        "DOMINIO_APP": "prueba.com",
+        "NAME_USER_ROOT": "julian",
+        "NAME_BLOB": "maphome",
+      }
+    },
+    "GMP.Apis.Web": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000;http://localhost:43949",
+      "dotnetRunMessages": "true"
+    }
+  }
+}
