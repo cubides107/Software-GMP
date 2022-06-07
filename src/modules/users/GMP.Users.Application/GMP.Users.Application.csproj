@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\commonBlocks\GMP.Application\GMP.Application.csproj" />
+    <ProjectReference Include="..\GMP.Users.Domain\GMP.Users.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
